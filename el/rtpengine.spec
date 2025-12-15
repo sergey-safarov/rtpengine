@@ -55,6 +55,7 @@ BuildRequires:	pkgconfig(libiptc)
 %if 0%{?with_transcoding} > 0
 BuildRequires:	ffmpeg-devel
 Requires(pre):	ffmpeg-libs
+BuildRequires:	mariadb-connector-c-devel
 %endif
 
 Requires:	perl-Config-Tiny
